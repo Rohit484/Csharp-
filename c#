@@ -1,0 +1,3 @@
+int f =99;
+decimal c =(f-32m)*(5m/9m);
+Console.WriteLine("The temperature is "+ c +"celsius");
