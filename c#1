@@ -1,0 +1,21 @@
+int employeelevel=100;
+string employeename="john smith";
+string title="";
+switch (employeelevel)
+{
+  case 100:
+  case 200:
+       title="senior associate";
+       break;
+  case 300: 
+       title="manager";
+       break;
+  case 400:
+       title="senior manager";
+       break;
+  default:
+  title="associate";
+        break;               
+
+}
+Console.WriteLine($"{employeelevel},{title}");
