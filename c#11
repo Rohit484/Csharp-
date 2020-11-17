@@ -1,0 +1,4 @@
+0601it191044
+
+string name = "Bob";
+Console.WriteLine(int.Parse(name));
